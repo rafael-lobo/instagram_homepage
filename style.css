@@ -1,0 +1,167 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+font-family: sans-serif;
+font-size: 14px;
+}
+
+body {
+width: 100%;
+min-height: 100vh;
+background-color: rgb(243,243,243);
+margin: 0;
+padding: 0;
+justify-content: center;
+display: flex;
+}
+
+.wrapper{
+    width: 37%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+}
+
+.phone-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.phone-photo img{
+    height: 80vh;
+}
+
+.continuar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+
+}
+
+.grupo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 350px;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+.get-app{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.profile-pic img{
+    height: 100px;
+    width: 100px;
+}
+
+.logo-instagram{
+    height: 3rem;
+
+}
+
+.download{
+    display: flex;
+    width: 350px;
+    justify-content: space-evenly;
+    margin-top: 22px;
+    align-items: center;
+}
+
+.appdownload1 img{
+    height: 40px;
+    width: 136px;
+}
+
+.appdownload2 img{
+    height: 40px;
+    width: 136px;
+}
+
+.grupo:nth-child(1){
+    min-height: 19rem;
+}
+
+.profile-pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.instagram-login{
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout{
+    color: #0095f6;
+    margin-top: 0px;
+}
+
+.not-account{
+    color: rgb(160,160,160);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.notaccount{
+    align-items: center;
+    color: rgb(160,160,160);
+}
+
+.linkblue{
+    color: #0095f6;
+}
+
+@media (max-width: 1700px){
+    .wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1024px){
+    .wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 760px){
+    .wrapper{
+        width: 90%;
+        background-color: white;
+    }
+    .phone-photo{
+        display: none;
+    }
+    .continuar{
+        width: 100%;
+    }
+    .grupo{
+        border: transparent;
+    }
+    
+}
