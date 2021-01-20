@@ -1,4 +1,4 @@
-#**Instagram Homepage Reproduction**
+# **Instagram Homepage Reproduction**
 
 This is a project submitted for *study purpose* that replicates Instagram's home page on Desktop.
 
